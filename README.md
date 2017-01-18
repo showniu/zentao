@@ -15,9 +15,8 @@ zentao 8.3.1
    zentao:
     restart: always
     ports:
-
-   -  "1080:80"
-         volumes:
-        -  /opt/zbox/:/opt/zbox/     
+   	-  "1080:80"
+    volumes:
+    	-  /opt/zbox/:/opt/zbox/     
    ```
 
