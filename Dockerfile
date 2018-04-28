@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 
-ADD   https://ncu.dl.sourceforge.net/project/zentao/9.2.1/ZenTaoPMS.9.2.1.zbox_64.tar.gz  /tmp
+ADD   http://dl.cnezsoft.com/zentao/9.8.3/ZenTaoPMS.9.8.3.zbox_64.tar.gz  /tmp
 
 COPY  ./boot.sh   /usr/local/boot.sh
 RUN   chmod +x    /usr/local/boot.sh
