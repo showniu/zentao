@@ -9,7 +9,8 @@
     docker run -d --restart=always -p=1080:80 -v=/opt/zbox:/opt/zbox  haha123/zentao
 
 2.  访问：
-       Visit website： https://LOCALHOST_IP:1080 default user/passwd: admin/123456
+       Visit website： https://LOCALHOST_IP:1080 default 
+       user/passwd: admin/123456
 
 3.  compose 启动
     ```yaml
